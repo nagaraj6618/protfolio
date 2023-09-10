@@ -63,7 +63,7 @@
   color: white;
 }
 .user-intro{
-  font-size: 20px;
+ 
   /* background-color: red; */
   
   position: relative;
@@ -72,6 +72,9 @@
   max-height: 195px;
   padding: 5px;
 }
+.user-intro div{
+  font-size: 24px;
+}
 @media only screen and (max-width: 700px) {
   .user-intro {
     /* max-height: 110px;
@@ -79,6 +82,7 @@
     left: -262px;
     top:110px;
    width: 98%;
+  
   }
   .swing img {
     height: 220px;
@@ -88,6 +92,7 @@
     font-size: 45px;
     font-weight: bold;
     color: #fa4f40;
+    
   }
   .user-name-style{
     font-size: 35px;
