@@ -64,6 +64,7 @@
 }
 .user-intro{
   font-size: 20px;
+  /* background-color: red; */
   
   position: relative;
   margin-left:260px;
@@ -73,8 +74,29 @@
 }
 @media only screen and (max-width: 700px) {
   .user-intro {
-    overflow-y: scroll;
+    /* max-height: 110px;
+    overflow-y: scroll; */
+    left: -262px;
+    top:110px;
+   width: 98%;
   }
+  .swing img {
+    height: 220px;
+  }
+  .user-info{
+    margin-top: 50px;
+    font-size: 45px;
+    font-weight: bold;
+    color: #fa4f40;
+  }
+  .user-name-style{
+    font-size: 35px;
+  
+  }
+  .user-intro{
+    font-size: 15px;
+  }
+
 }
 .user-intro::-webkit-scrollbar{
   border-radius: 10px;
